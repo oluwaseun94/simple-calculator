@@ -1,0 +1,49 @@
+body {
+    background-image: url(./bk.jpg);
+    background-size: cover;
+}
+.container{
+    max-width: 400px;
+    margin: 10vh auto 0 auto;
+    
+}
+
+#display {
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    padding: 16px 8px;
+    font-size: 25px;
+    background-color:rgba(0, 0, 0, 0.63);
+    color: white;
+
+}
+
+.buttons {
+    display: grid;
+    border-bottom: 1px #999;
+    border-left: 1px solid #999;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: blue;
+}
+
+.buttons > div {
+    border-top: 1px solid #999;
+    border-right: 1px solid #999;
+}
+
+.button {
+    border: 0.5px solid #999;
+    line-height: 100px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    color: white;
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
+    transition:0.5s ease-in-out;
+
+}
