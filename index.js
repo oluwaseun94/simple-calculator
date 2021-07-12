@@ -1,5 +1,5 @@
 let display = document.getElementById('display');
-let buttons = Array.from(document.getElementsByClassName('button'))
+let buttons = Array.from(document.getElementsByClassName('button'));
 
 buttons.map((button, index) => {
     button.addEventListener('click', (e) => {
